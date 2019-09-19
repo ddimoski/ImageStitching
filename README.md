@@ -1,10 +1,10 @@
 # Image Stitching
 
-
 The idea of this project is to stitch two photos together and construct a panorma photo using Python and OpenCV. This is achieved with the help of computer vision and image processing techniques like: keypoint detection, local invariant descriptors, keypoint matching, the RANSAC algorithm and perspective warping.
-![](images/3.jpg)
-![](images/4.jpg)
-![](panorama.png)
+
+<img src="images/3.jpg" width="600"/>
+<img src="images/4.jpg" width="600"/>
+<img src="panorama.png"/>
 
 ## Solution
 The image stitching algorithm is made up of 4 steps:
@@ -48,7 +48,7 @@ Now that the homography matrix is established, we need to warp perspective (chan
     dst[0:img_left.shape[0], 0:img_left.shape[1]] = img_left
     
    In the above 2 lines, we are taking the overlapping area from the images. In "dst" there's only the right side of image which is not overlapped, so in the second line of code we are placing our left side image into the final product and it looks like this:
-   ![](panorama-untrimmed.png)
+   <img src="panorama-untrimmed.png"/>
    To remove the black sides of the image, we use the following function:
    
 
@@ -68,4 +68,4 @@ Now that the homography matrix is established, we need to warp perspective (chan
 	    return frame
   
   And we get the final product:
-  ![](panorama.png)
+  <img src="panorama.png"/>
