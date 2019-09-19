@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9397693-d674-4ce9-97a1-73cb16d0b066" name="Default Changelist" comment="" />
+    <list default="true" id="f9397693-d674-4ce9-97a1-73cb16d0b066" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStitching.py" beforeDir="false" afterPath="$PROJECT_DIR$/ImageStitching.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/ImageStitching.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="150" lean-forward="true" selection-start-column="2" selection-end-column="150" />
+              <caret column="2" selection-start-column="2" selection-end-column="150" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -43,7 +46,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://D:/Uni/Обработка на слики/Предавања и аудиториски/14. panorama-stitching/pyimagesearch/panorama.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
+            <state relative-caret-position="254">
               <caret line="109" column="33" selection-start-line="109" selection-start-column="33" selection-end-line="109" selection-end-column="33" />
               <folding>
                 <element signature="e#32#50#0" expanded="true" />
@@ -208,12 +211,12 @@
       <option name="presentableId" value="Default" />
       <updated>1568561771617</updated>
       <workItem from="1568561773450" duration="8745000" />
-      <workItem from="1568592204079" duration="28097000" />
+      <workItem from="1568592204079" duration="30934000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36842000" />
+    <option name="totallyTimeSpent" value="39679000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -321,16 +324,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Uni/Обработка на слики/Предавања и аудиториски/14. panorama-stitching/pyimagesearch/panorama.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="109" column="33" selection-start-line="109" selection-start-column="33" selection-end-line="109" selection-end-column="33" />
-          <folding>
-            <element signature="e#32#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imgStitchHelp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -344,10 +337,20 @@
     <entry file="file://$PROJECT_DIR$/panorama.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://D:/Uni/Обработка на слики/Предавања и аудиториски/14. panorama-stitching/pyimagesearch/panorama.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="109" column="33" selection-start-line="109" selection-start-column="33" selection-end-line="109" selection-end-column="33" />
+          <folding>
+            <element signature="e#32#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ImageStitching.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="150" lean-forward="true" selection-start-column="2" selection-end-column="150" />
+          <caret column="2" selection-start-column="2" selection-end-column="150" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>

@@ -1,4 +1,4 @@
-# python ImageStitching.py -l C:\Users\dado_\PycharmProjects\ImageStitching\images\1.png -r C:\Users\dado_\PycharmProjects\ImageStitching\images\2.png
+# python ImageStitching.py -l C:\Users\dado_\PycharmProjects\ImageStitching\images\3.jpg -r C:\Users\dado_\PycharmProjects\ImageStitching\images\4.jpg
 
 import cv2
 import numpy as np
@@ -72,11 +72,12 @@ if len(good_matches) > MIN_MATCH_COUNT:
 
     M, mask = cv2.findHomography(src_pts, dst_pts, cv2.RANSAC, 5.0)
 
-    h, w = img_right_bw.shape
-    pts = np.float32([[0, 0], [0, h - 1], [w - 1, h - 1], [w - 1, 0]]).reshape(-1, 1, 2)
+    height, width = img_right_bw.shape
+    pts = np.float32([[0, 0], [0, height - 1], [width - 1, height - 1], [width - 1, 0]]).reshape(-1, 1, 2)
     dst = cv2.perspectiveTransform(pts, M)
-    img_left_bw = cv2.polylines(img_left_bw, [np.int32(dst)], True, 255, 3, cv2.LINE_AA)
+    #img_left_bw = cv2.polylines(img_left_bw, [np.int32(dst)], True, 255, 3, cv2.LINE_AA)
     dst = cv2.warpPerspective(img_right, M, (img_left.shape[1] + img_right.shape[1], img_left.shape[0]))
+    cv2.imwrite("panorama-untrimmed.png", dst)
     dst[0:img_left.shape[0], 0:img_left.shape[1]] = img_left
 
     cv2.imshow("final", trim(dst))
