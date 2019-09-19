@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9397693-d674-4ce9-97a1-73cb16d0b066" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStitching.py" beforeDir="false" afterPath="$PROJECT_DIR$/ImageStitching.py" afterDir="false" />
-    </list>
+    <list default="true" id="f9397693-d674-4ce9-97a1-73cb16d0b066" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ImageStitching.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            <state>
+              <caret column="150" lean-forward="true" selection-start-column="2" selection-end-column="150" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -211,12 +208,12 @@
       <option name="presentableId" value="Default" />
       <updated>1568561771617</updated>
       <workItem from="1568561773450" duration="8745000" />
-      <workItem from="1568592204079" duration="27473000" />
+      <workItem from="1568592204079" duration="28097000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36218000" />
+    <option name="totallyTimeSpent" value="36842000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -244,7 +241,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32890365" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50078493" side_tool="true" weight="0.33388704" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49921507" weight="0.33878887" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49921507" visible="true" weight="0.33878887" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -349,8 +346,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ImageStitching.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        <state>
+          <caret column="150" lean-forward="true" selection-start-column="2" selection-end-column="150" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
