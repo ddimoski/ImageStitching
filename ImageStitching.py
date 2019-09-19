@@ -77,9 +77,9 @@ if len(good_matches) > MIN_MATCH_COUNT:
     dst = cv2.perspectiveTransform(pts, M)
     #img_left_bw = cv2.polylines(img_left_bw, [np.int32(dst)], True, 255, 3, cv2.LINE_AA)
     dst = cv2.warpPerspective(img_right, M, (img_left.shape[1] + img_right.shape[1], img_left.shape[0]))
-    cv2.imwrite("panorama-untrimmed.png", dst)
-    dst[0:img_left.shape[0], 0:img_left.shape[1]] = img_left
 
+    dst[0:img_left.shape[0], 0:img_left.shape[1]] = img_left
+    cv2.imwrite("panorama-untrimmed.png", dst)
     cv2.imshow("final", trim(dst))
     cv2.imwrite("panorama.png", trim(dst))
     cv2.waitKey()
